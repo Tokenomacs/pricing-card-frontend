@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+  font-family: Karla;
+  font-size:16px;
+  font-weight:400px;
+}
+
+body {
+  padding: 50px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2, h4, p {
+  margin:0;
+}
+
+#card {
+  width: 700px;
+  height: 350px;
+  box-shadow: -1px 8px 30px 0px rgba(0,0,0,0.29);
+-webkit-box-shadow: -1px 8px 30px 0px rgba(0,0,0,0.29);
+-moz-box-shadow: -1px 8px 30px 0px rgba(0,0,0,0.29);
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+#top-section {
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+button {
+  color: white;
+  background-color:#c0df34;
+  border: 0px;
+  border-radius:4px;
+  box-shadow: -1px 8px 30px 0px rgba(0,0,0,0.29);
+-webkit-box-shadow: -1px 8px 30px 0px rgba(0,0,0,0.29);
+-moz-box-shadow: -1px 8px 30px 0px rgba(0,0,0,0.29);
+  height: 25%;
+  width: 85%;
+  margin-left: 15px
+  
+}
+
+
+#bottom-left-section {
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color: #2ab2af;
+  padding: 25px;
+}
+
+#bottom-right-section {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ebfbd;
+  padding: 25px;
+}
+
+#top-section h2 {
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+#top-section h4 {
+  color: #c0df34;
+  margin-bottom: 12px;
+}
+
+#top-section p {
+  color: #98a6bd;
+  margin-bottom: 10px;
+}
+
+#price-container {
+  font-weight:700;
+  font-size:1.8rem;
+  margin-left: 15px
+}
+
+#bottom-left-section h4{
+  margin-bottom: 15px;
+  margin-left: 15px
+  
+}
+#price-freq, #price-container {
+  display: inline-block
+  
+}
+
+#price-freq {
+  opacity: 55%;
+  position: relative;
+  top: -4px;
+  margin-left: 5px;
+  font-size: .85rem;
+}
+
+#bottom-left-section p {
+  font-size: .85rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 15px
+}
+
+#list-jawn {
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  font-size: .85rem;
+  opacity: 75%;
+  margin-left: 5px;
+}
+
+#bottom-right-section h4 {
+  margin-left: 5px;
+}
+
+button:hover {
+  cursor:pointer;
+  background-color:#A9C42D;
+  transform: scale(1.02);
+}
